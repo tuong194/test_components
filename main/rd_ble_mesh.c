@@ -287,7 +287,7 @@ static esp_ble_mesh_light_ctl_temp_srv_t lightcct_server_0 = {
 static esp_ble_mesh_model_t root_models[] = {
     ESP_BLE_MESH_MODEL_CFG_SRV(&config_server),
     ESP_BLE_MESH_MODEL_GEN_ONOFF_SRV(&onoff_pub_0, &onoff_server_0),
-    ESP_BLE_MESH_MODEL_SENSOR_SRV(&sensor_pub, &sensor_srv),
+    // ESP_BLE_MESH_MODEL_SENSOR_SRV(&sensor_pub, &sensor_srv),
 #if CONFIG_BLE_MESH_GENERIC_ONOFF_CLI
     ESP_BLE_MESH_MODEL_GEN_ONOFF_CLI(&onoff_client_pub, &onoff_client_0),
 #endif
