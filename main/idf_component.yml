@@ -1,0 +1,4 @@
+# dependencies:
+#   rd_ble_mesh:
+#     git: https://github.com/R-ng-Dong/ble_mesh.git
+#     version: "v1.0.2" 
